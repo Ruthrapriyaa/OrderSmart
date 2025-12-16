@@ -91,20 +91,19 @@ AUTHOR :
 Ruthrapriya
 Full-Stack Developer (React + Django)
 
-### Backend Setup
+## Backend Setup
+
 ```bash
 cd backend
 venv\Scripts\activate
 cd server
 python manage.py runserver 8003
-Backend runs at:
-http://127.0.0.1:8003//
 
-Frontend Setup : 
+Backend runs at:
+http://127.0.0.1:8003/
+
 ```bash
+Frontend Setup :
 cd frontend
 npm install
 npm run dev
-Frontend runs at:
-http://localhost:5173/
-
