@@ -87,20 +87,21 @@ Order history & insights
 Mobile-first responsive version
 Deployment (Vercel + Render)
 
-Backend Setup :
+### Backend Setup
 ```bash
 cd backend
 venv\Scripts\activate
 cd server
 python manage.py runserver 8003
 Backend runs at:
-http://127.0.0.1:8003/
+http://127.0.0.1:8003//
 
-Frontend Setup :
-```bash
+### Frontend Setup
+md
 cd frontend
 npm install
 npm run dev
+
 Frontend runs at:
 http://localhost:5173/
 
