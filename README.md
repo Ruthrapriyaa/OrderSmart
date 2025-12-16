@@ -87,6 +87,10 @@ Order history & insights
 Mobile-first responsive version
 Deployment (Vercel + Render)
 
+AUTHOR :
+Ruthrapriya
+Full-Stack Developer (React + Django)
+
 ### Backend Setup
 ```bash
 cd backend
@@ -96,15 +100,11 @@ python manage.py runserver 8003
 Backend runs at:
 http://127.0.0.1:8003//
 
-### Frontend Setup
-md
+Frontend Setup : 
+```bash
 cd frontend
 npm install
 npm run dev
-
 Frontend runs at:
 http://localhost:5173/
 
-AUTHOR :
-Ruthrapriya
-Full-Stack Developer (React + Django)
