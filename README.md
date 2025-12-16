@@ -38,9 +38,7 @@ Response
   "suggestion": "High delay risk. Consider waiting 15 mins."
 }
 
-
 FEATURES : 
-
 ETA calculation based on:
 Restaurant load (Low / Medium / High)
 Distance (km)
@@ -51,22 +49,30 @@ Animated result card for better UX
 REST API integration between frontend & backend
 
 TECH STACK :
-
 FRONTEND :
-
 React (Vite)
 JavaScript
 CSS (custom styling)
 Fetch API
 
 BACKEND : 
-
 Django
 Django REST Framework
 JSON-based REST API
 
-WHY THIS PROJECT ? 
+FEATURES : 
+ETA calculation based on:
+Restaurant load (Low / Medium / High)
+Distance (km)
+Peak hour (7–9 PM)
+Visual confidence & reliability badges
+Clean two-column responsive UI (Laptop-first)
+Animated result card for better UX
+REST API integration between frontend & backend
 
+TECH STACK :
+FRONTEND :
+WHY THIS PROJECT ? 
 This project demonstrates:
 Real-world problem solving
 Full-stack integration (React + Django)
@@ -75,14 +81,29 @@ Clean UI/UX thinking
 Practical decision-based logic
 
 FUTURE IMPROVEMENTS :
-
 User location detection
 Historical delay analysis
 Order history & insights
 Mobile-first responsive version
 Deployment (Vercel + Render)
 
-AUTHOR :
+Backend Setup :
+```bash
+cd backend
+venv\Scripts\activate
+cd server
+python manage.py runserver 8003
+Backend runs at:
+http://127.0.0.1:8003/
 
+Frontend Setup :
+```bash
+cd frontend
+npm install
+npm run dev
+Frontend runs at:
+http://localhost:5173/
+
+AUTHOR :
 Ruthrapriya
 Full-Stack Developer (React + Django)
